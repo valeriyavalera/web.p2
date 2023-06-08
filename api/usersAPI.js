@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const { Users } = require('../models/users')
+const { Users } = require('./models/users')
 const { v4: uuidv4 } = require('uuid');
 
 const router = new Router();
