@@ -1,6 +1,6 @@
 const {Router} = require('express')
-const {Links} = require('../models/links');
-const { Users } = require('../models/users')
+const {Links} = require('./models/links');
+const { Users } = require('./models/users')
 
 
 const router = Router();
